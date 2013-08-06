@@ -1,0 +1,18 @@
+<div class="widgetSharer">
+	<div class="title" data-text="Réagir à cette émission">Réagir à cette émission sur Twitter</div>
+	<form class="shareForm">
+		<textarea id="postFormTextArea"  class="input TW" placeholder="Poster un tweet ou actualiser mon statut Facebook …" ></textarea>
+		<div class="countdown"></div>
+		<div class="actionsZone cf">
+			<div class="buttons fleft">
+				<div id="shareOptionTW" class="fleft shareOption active"><img alt=" " src="./css/images/social_module_post_tw_logo.png" /></div>
+				<div id="shareOptionFB"  class="fleft shareOption"><img alt=" " src="./css/images/social_module_post_fb_logo.png" /></div>
+			</div>
+			<div class="actions fright">
+				<div class="fright actionButton ok">Envoyer</div>
+				<div class="fright actionButton cancel toggleFormButton">Annuler</div>
+			</div>
+		</div>
+		
+	</form>
+</div>

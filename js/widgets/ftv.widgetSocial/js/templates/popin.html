@@ -1,0 +1,38 @@
+<div id="popinReseauxSociaux" style="display:none;">
+	<div class="mask"></div>
+	<div id="popin-wrapper">
+		<div class="top"></div>
+		<div class="mid">
+			<a href="#" class="close" title="fermer">&nbsp;</a>
+			<div id="popin-content">
+				<div class="content">
+					<div class="post cf">
+						<%= post %>
+					</div>
+				</div>
+				<% if(type=='twitter') { %>
+				<div class="footer twitter">
+					<a class="forward" title="Retweeter" href="https://twitter.com/intent/retweet?tweet_id=<%= post_id %>">Retweeter</a>
+					<a class="answer" title="Répondre" href="https://twitter.com/intent/tweet?in_reply_to=<%= post_id %>">Répondre</a>
+					<a class="favorite" title="Favoris" href="https://twitter.com/intent/favorite?tweet_id=<%= post_id %>">Favoris</a>
+					<a class="website" title="Voir sur Twitter" href="https://twitter.com/<%= name %>" target="_blank">Voir sur Twitter</a>
+					<div class="clearer"></div>
+				</div>
+				<% }else{ %>
+				<div class="footer facebook">
+					<!--
+					<a onclick="fbLike(); return false;" title="J\'aime" class="like" target="_self">Like</a>
+					<span class="sep"></span>
+					<a onclick="fbComment(); return false;" title="Commenter" class="comment" target="_self">Commenter</a>
+					<span class="sep"></span>
+					-->
+					<a onclick="fbShare(); return false;" title="Partager" class="share" target="_self">Partager</a>
+					<div class="clearer"></div>
+				</div>
+				<% } %>
+				<div class="clearer"></div>
+			</div>
+		</div>
+		<div class="bot"></div>
+	</div>
+</div>

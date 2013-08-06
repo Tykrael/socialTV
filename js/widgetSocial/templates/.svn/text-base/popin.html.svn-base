@@ -1,0 +1,25 @@
+<div id="popinReseauxSociaux" style="display:none;">
+	<div class="mask"></div>
+	<div id="popin-wrapper">
+		<div class="tops"></div>
+		<div class="mid">
+			<a href="#" class="close environnement" title="fermer">&nbsp;</a>
+			<div id="popin-content">
+				<div class="content">
+					<div class="post cf">
+						<%= post %>
+					</div>
+				</div>
+				<% if(type=='twitter') { %>
+				<div class="footer twitter">
+					<a class="favorite environnement" id="prod-direct" title="Ajouter à l'émission en cours" href="#" rel="<%= post_id %>">Ajouter à l'emission en cours</a> 
+					<a class="favorite environnement" id="prod-indirect" title="Enregistrer pour publication ulterieure" href="#" rel="<%= post_id %>">Enregistrer pour publication ulterieure</a> 
+					<div class="clearer"></div>
+				</div>
+				<% } %>
+				<div class="clearer"></div>
+			</div>
+		</div>
+		<div class="bot"></div>
+	</div>
+</div>

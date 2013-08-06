@@ -1,0 +1,43 @@
+<div class="live" rel="post-<%= val.messageId %>" style="display:none;">
+	<div class="post">
+		<div class="react" title="reagissez">
+			<div class="row clearfix item">
+				<img class="avatar" src="http://<%= val.avatar %>" alt="<%= val.userName %>" />
+				<div class="author">
+					<span class="name tor">
+						<a href="http://twitter.com/<%= val.userName %>" target="_blank">@<%= val.userName %></a>
+					</span>
+					<span class="twit"><%= val.texto_modif %></span>
+				</div>
+			</div>
+			<div class="row clearfix footer">
+					<div class="time fleft">il y a <span class="ago" data-time="<%= val.timestamp %>"><%= val.date %></span></div>
+					<% 
+						if(val.network=='twitter') {
+					%>
+						<div class="twitter fleft clearfix">
+							<a class="forward" title="Retweeter" target="_blank" href="https://twitter.com/intent/retweet?tweet_id=<%= val.messageId %>">Retweeter</a>
+							<a class="answer" title="Répondre" target="_blank" href="https://twitter.com/intent/tweet?in_reply_to=<%= val.messageId %>">Répondre</a>
+						</div>
+
+					<% 
+						} else {
+					%>
+						<div class="facebook fleft clearfix">
+							<a onclick="fbShare(); return false;" title="Partager" class="share" target="_self">Partager</a>
+						</div>
+					<% 
+						}					
+					%>
+			</div>
+			<div style="display:none;">
+				<div id="novisible_id" style="display:none;"><%= val.userId %></div>
+				<div id="novisible_screen_name" style="display:none;"><%= val.userName %></div>
+				<div id="network" style="display: none;"><%= val.network %></div>
+				<input type="hidden" name="post_id" class="post_id" value="<%= val.messageId %>" />
+			</div>
+		</div>
+		<span class="icon-<%= val.network %>"></span>
+	</div>
+</div>
+

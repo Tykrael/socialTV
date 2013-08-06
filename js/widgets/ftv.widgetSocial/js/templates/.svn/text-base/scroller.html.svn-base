@@ -1,0 +1,25 @@
+<div class="moduleWrapper">
+	<header>
+		<div class="toolbar clearfix">
+			<span class="row"><%= titre %></span>
+			<!--
+			<div class="postCount row">
+				<span class="center"><span class="number"></span> <span class="label">posts</span></span>
+			</div>
+		</div>
+		-->
+		<div class="tabs cf"></div>
+	</header>
+	<section class="widgetWrapper">
+		<div id="widgetContainer" class="scroller widgetContainer">
+			<div class="itemList"></div>
+			<div class="nav-column down">
+				<a href="#" class="v-arrow" title="Plus de tweets"><span>Plus de tweets</span></a>
+			</div>
+			<div class="nav-column up">
+				<a href="#" class="v-arrow" title="Plus de tweets"><span>Plus de tweets</span></a>
+			</div>
+		</div>
+	</section>
+	<section class="share"></section>
+</div>

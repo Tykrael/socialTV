@@ -1,0 +1,196 @@
+.transparent{
+	height: 100%;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+
+}
+/*.caption{
+	    color: #BEC2C4;
+}*/
+.popin-fake{
+  	left: 0;
+    position: absolute;
+    top: 102px;
+    z-index: 9999999;
+}
+
+.comment-picto{
+	background:url('./img/comment-picto.png') no-repeat 9px 12px;
+}
+
+span.arrow{
+	 background: url("./img/arrow.png") no-repeat scroll 0 0 transparent;
+    left: 25px;
+    position: absolute;
+    top: -15px;
+}
+
+
+/*---------------------*\
+	FONTS
+\*---------------------*/
+@font-face {font-family:heldR;src:url('./font/HeldustryFTRegular.ttf');}
+@font-face {font-family:heldRI;src:url('./font/HeldustryFTRegularItalic.ttf');}
+@font-face {font-family:heldD;src:url('./font/HeldustryFTDemi.ttf');}
+@font-face {font-family:heldDI;src:url('./font/HeldustryFTDemiItalic.ttf');}
+
+
+
+/*CHANNEL LOGO*/
+#channelLogo{position:absolute;top:62px;right:15px;width:29px;height:44px;background:url('./img/channel_logo.png') no-repeat left top;}
+
+#mainAreaContainer{width:100%;height:auto;background-image:url('./img/main_background.png');background-repeat:repeat-x;background-position:0px 0px;background-color:#f7f7f7;}
+
+
+#scroller li .sondageQuestionSlide .options div{
+	float:left;/* display:table-cell;vertical-align:middle;height:60px; */
+	display:table;
+	width:175px;/* overflow:hidden; */
+	text-align:center;/* padding:5px 10px; */
+	padding:5px 10px;
+	margin-bottom:20px;/* margin:3px 12px 3px 10px; */
+	cursor:pointer;
+	/*background:#8d034f;
+	background:-moz-linear-gradient(top,  #e90e93 0%, #8d034f 100%);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#e90e93), color-stop(100%,#8d034f));
+	background:-webkit-linear-gradient(top,  #e90e93 0%,#8d034f 100%);
+	background:-o-linear-gradient(top,  #e90e93 0%,#8d034f 100%);
+	background:-ms-linear-gradient(top,  #e90e93 0%,#8d034f 100%);
+	background:linear-gradient(to bottom,  #e90e93 0%,#8d034f 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#e90e93', endColorstr='#8d034f',GradientType=0 );*/
+	/* background: #e90e93; Old browsers */
+	background: -moz-linear-gradient(top,  #e90e93 0%, #8d034f 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e90e93), color-stop(100%,#8d034f)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #e90e93 0%,#8d034f 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #e90e93 0%,#8d034f 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #e90e93 0%,#8d034f 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #e90e93 0%,#8d034f 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e90e93', endColorstr='#8d034f',GradientType=0 ); /* IE6-9 */
+	-webkit-border-radius:5px;-moz-border-radius:5px;-o-border-radius:5px;border-radius:5px;
+	border-radius:0\9; /* Cible IE9 et toutes les versions inférieures */
+}
+
+#scroller li .sondageQuestionSlide .counter .progressBar .progress{
+	background:#8d034f;display:block;padding:0px;margin:0px;cursor:pointer;width:55px;height:8px;position:relative;top:0px;
+	background:-moz-linear-gradient(top,  #e90e93 0%, #8d034f 100%); /* FF3.6+ */
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#e90e93), color-stop(100%,#8d034f)); /* Chrome,Safari4+ */
+	background:-webkit-linear-gradient(top,  #e90e93 0%,#8d034f 100%); /* Chrome10+,Safari5.1+ */
+	background:-o-linear-gradient(top,  #e90e93 0%,#8d034f 100%); /* Opera 11.10+ */
+	background:-ms-linear-gradient(top,  #e90e93 0%,#8d034f 100%); /* IE10+ */
+	background:linear-gradient(to bottom,  #e90e93 0%,#8d034f 100%); /* W3C */
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#e90e93', endColorstr='#8d034f',GradientType=0 ); /* IE6-9 */
+	-webkit-border-radius:4px;-moz-border-radius:4px;-o-border-radius:4px;border-radius:4px;
+	border-radius:0\9; /* Cible IE9 et toutes les versions inférieures */
+}
+
+#scroller li .sondageAnswerSlide .counter .progressBar .progress{
+	background:#8d034f;border:1px solid #8d034f;display:block;padding:0px;margin:0px;cursor:pointer;width:55px;height:7px;position:relative;top:-1px;
+	background:-moz-linear-gradient(top,  #e90e93 0%, #8d034f 100%); /* FF3.6+ */
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#e90e93), color-stop(100%,#8d034f)); /* Chrome,Safari4+ */
+	background:-webkit-linear-gradient(top,  #e90e93 0%,#8d034f 100%); /* Chrome10+,Safari5.1+ */
+	background:-o-linear-gradient(top,  #e90e93 0%,#8d034f 100%); /* Opera 11.10+ */
+	background:-ms-linear-gradient(top,  #e90e93 0%,#8d034f 100%); /* IE10+ */
+	background:linear-gradient(to bottom,  #e90e93 0%,#8d034f 100%); /* W3C */
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#e90e93', endColorstr='#8d034f',GradientType=0 ); /* IE6-9 */
+	-webkit-border-radius:4px;-moz-border-radius:4px;-o-border-radius:4px;border-radius:4px;
+	border-radius:0\9; /* Cible IE9 et toutes les versions inférieures */
+}
+
+#scroller li .sondageAnswerSlide .options span.pellet{background-color:#7c0341;display:inline-block;vertical-align:middle;padding:0;margin:0px 10px 0px 0px;height:15px;width:15px;-webkit-border-radius:15px;border-radius:15px;}
+#scroller li .sondageAnswerSlide .options span.percentage{font-size:1em;color:#fff; font-weight:bold;}
+#scroller li .sondageAnswerSlide .options .sondRes:nth-child(2) span.pellet{background-color:#a30e5a;}
+#scroller li .sondageAnswerSlide .options .sondRes:nth-child(3) span.pellet{background-color:#d72b83;}
+#scroller li .sondageAnswerSlide .options .sondRes:nth-child(4) span.pellet{background-color:#ee81b9;}
+
+
+/*Social slide*/
+#scroller li .socialSlide .quoteLeft{position:absolute;top:0px;left:0px;padding:10px 0px 0px 30px;display:inline-block;
+	height:30px;width:39px;background:url('./img/quote_left.png') no-repeat right bottom;}
+#scroller li .socialSlide .quoteRight{position:absolute;bottom:0px;right:0px;padding:5px 20px 25px 0px;display:inline-block;
+	height:30px;width:39px;background:url('./img/quote_right.png') no-repeat left top;}
+}
+
+#indicatorContainer span.current{color:#cc408d;}
+
+#sliderMenuContainer #sliderMenu ul li a span.pastille{
+	display:none;position:absolute;background-color:#990458;border:3px solid #AAA;z-index:75000;bottom:0px;right:0px;min-height:8px;min-width:8px;padding:3px;margin:5px 3px;
+	font-size:10px;color:#FFFFFF;text-align:center;
+	-webkit-box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.5);box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.5);
+	-webkit-border-radius:20px;border-radius:20px;
+}
+
+/*---------------------*\
+	SOCIAL MODULE
+\*---------------------*/
+#socialModule .header .title{
+	color:#FFF;font-size:19px;padding:10px 10px 0;height:30px;width:280px;position:absolute;top:0px;display:block;   font-family: heldR, arial;
+	/* background-image:url('../../res/img/skin/socialmodule_header_background_thin.png');background-repeat:repeat-x;background-position:top; */
+	-webkit-border-radius:5px 5px 0px 0px;border-radius:5px 5px 0px 0px;
+	background:-moz-linear-gradient(center bottom,  #8d024f 0%, #ea0e93 100%); /* FF3.6+ */
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#8d024f), color-stop(100%,#ea0e93)); /* Chrome,Safari4+ */
+	background:-webkit-linear-gradient(top, #ea0e93 0%,#8d024f 100%); /* Chrome10+,Safari5.1+ */
+	background:-o-linear-gradient(top,  #ea0e93 0%,#8d024f 100%); /* Opera 11.10+ */
+	background:-ms-linear-gradient(top,  #ea0e93 0%,#8d024f 100%); /* IE10+ */
+	background:linear-gradient(to bottom,  #ea0e93 0%,#8d024f 100%); /* W3C */
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea0e93', endColorstr='#8d024f',GradientType=0 ); /* IE6-9 */
+	background-color:#8d024f;
+}
+
+#socialModule .footerButton{
+	padding-bottom: 7px;display:block;cursor:pointer;color:#FFF;font-weight:normal;position:absolute;bottom:-1px;width:300px;
+	-webkit-border-radius:0px 0px 5px 5px;border-radius:0px 0px 5px 5px;
+	/* background-image:url('../../res/img/skin/socialmodule_footer_background_thin.png');background-repeat:repeat-x;background-position:top; */
+	background:-moz-linear-gradient(center bottom,  #ea0e93 0%, #8d024f 100%); /* FF3.6+ */
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#8d024f), color-stop(100%,#ea0e93)); /* Chrome,Safari4+ */
+	background:-webkit-linear-gradient(top, #8d024f  0%,#ea0e93 100%); /* Chrome10+,Safari5.1+ */
+	background:-o-linear-gradient(top,  #ea0e93 0%,#8d024f 100%); /* Opera 11.10+ */
+	background:-ms-linear-gradient(top,  #ea0e93 0%,#8d024f 100%); /* IE10+ */
+	background:linear-gradient(to bottom,  #ea0e93 0%,#8d024f 100%); /* W3C */
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#8d024f', endColorstr='#ea0e93',GradientType=0 ); /* IE6-9 */
+	background-color:#8d024f;
+}
+
+#socialModule .footerButton .comment-picto{	font-size: 15px;}
+
+#socialModule .footerButton span{font-size:13px;display:inline-block;vertical-align:middle; padding: 8px 0 10px 35px;font-family: heldR, arial;}
+#socialModule .footerGradient{
+	height:59px;width:100%;position:absolute;bottom:58px;
+	background-image:url('../../res/img/social_module_post_list_gradient_bottom.png');
+	background-repeat:repeat-x;
+	background-position:top;
+}
+
+
+#socialModule .formContent .actions span{display:inline-block;padding:8px 20px;color:#323232;font-family:arial;font-weight: bold;}
+
+#socialModule .formContent .actions span.ok{
+	color:#FFF;background:#ed0a95;
+	background:-moz-linear-gradient(top,  #ed0a95 0%, #97024b  100%); /* FF3.6+ */
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#ed0a95), color-stop(100%,#97024b )); /* Chrome,Safari4+ */
+	background:-webkit-linear-gradient(top,  #ed0a95 0%,#97024b  100%); /* Chrome10+,Safari5.1+ */
+	background:-o-linear-gradient(top,  #ed0a95 0%,#97024b  100%); /* Opera 11.10+ */
+	background:-ms-linear-gradient(top,  #ed0a95 0%,#97024b  100%); /* IE10+ */
+	background:linear-gradient(to bottom,  #ed0a95 0%,#97024b  100%); /* W3C */
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#8d034f', endColorstr='#97024b ',GradientType=0 ); /* IE6-9 */
+}
+
+#socialModule .footerButton span.countdown{bottom:32px;right: 28px;}
+
+/*------------------------------*\
+ SURCHARGE PLUGGIN MASSRELEVANCE
+\*------------------------------*/
+.post a{color:#8c0143;}
+.post .react .author .name{display:block;padding-bottom:10px;}
+.post .react .author .name .accountname{display:block;color:#8c0143;font-style:normal;font-weight:bold;}
+.post .react .author .name .nickname{	display:block;color:#8c0143;font-style:italic;font-weight:normal;}
+.post .react .author .details a.timeago{color:#aaa;}
+
+#popinFtvTdf .post .author .name {display: block;padding-bottom:10px;}
+#popinFtvTdf .post .author .name .accountname{display:inline;color:#8c0143;font-style:normal;font-weight:bold;}
+#popinFtvTdf .post .author .name .nickname{display:inline;color:#8c0143;font-style:italic;font-weight:normal;}
+
+#popinFtvTdf .post{padding-bottom:10px;}
+#popinFtvTdf .post .author .details{bottom:0;}
+#popinFtvTdf .post .author .details a.timeago{color:#aaa;}
+#popinFtvTdf .post a, #popinFtvTdf .footer a{color:#8c0143;}

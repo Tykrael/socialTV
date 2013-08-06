@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'clan-bla-webfont';
+<<<<<<< .mine
+    src: url('./clan-bla-webfont.woff') format('woff'),
+         url('./clan-bla-webfont.ttf') format('truetype'),
+         url('./clan-bla-webfont.eot');
+=======
+    src: url('./clan-bla-webfont.eot');
+    src: url('./clan-bla-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./clan-bla-webfont.woff') format('woff'),
+         url('./clan-bla-webfont.ttf') format('truetype');
+>>>>>>> .r295
+    font-weight: normal;
+    font-style: normal;
+}

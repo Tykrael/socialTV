@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'clan-bla-webfont';
+    src: url('./clan-bla-webfont.woff') format('woff'),
+         url('./clan-bla-webfont.ttf') format('truetype'),
+         url('./clanblawebfont.eot');
+    font-weight: normal;
+    font-style: normal;
+}

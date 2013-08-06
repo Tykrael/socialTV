@@ -1,0 +1,29 @@
+<div class="live new new-<%= k %>" rel="post-<%= messageId %>" style="display:none;">
+	<div class="post">
+		<div class="react" title="reagissez">
+			<img class="avatar" src="<%= avatar %>" alt="<%= userName %>" />
+			<span class="author">
+				<span class="name tor">
+						<% if(network=='twitter'){ %>
+							<a class="accountname" href="http://twitter.com/<%= userName %>" target="_blank"><%= name %></a>
+							<a class="nickname" href="http://twitter.com/<%= userName %>" target="_blank">@<%= userName %></a>
+						<% }else{ %>
+							<%= userName %>
+						<% } %>
+				</span>
+				<span class="twit"><%= texto_modif %></span>
+				<span class="details">
+					<a class="timeago" href="http://twitter.com/<%= userName %>/status/<%= messageId %>" target="_blank">
+						<span class="time"><span>Il y a</span> <span class="ago" data-time="<%= timestamp %>" data-oDate="<%= oDate %>"><%= date %></span></span>
+					</a>
+					<span class="networkIcon icon-<%= network %>"><img alt=" " src="./css/res/img/social_post_<%= network.substring(0,2) == 'fa'?'fb':'tw' %>_logo.png" /></span>
+				</span>
+			</span>
+			<div id="novisible_id" style="display:none;"><%= userId %></div>
+			<div id="novisible_screen_name" style="display:none;"><%= userName %></div>
+			<div id="network" style="display: none;"><%= network %></div>
+			<div class="clearer"></div>
+			<input type="hidden" name="post_id" class="post_id" value="<%= messageId %>" />
+		</div>
+	</div>
+</div>

@@ -1,0 +1,16 @@
+
+.leftArea{
+}
+
+.fullHeightBlock{
+	height: 600px;
+}
+
+.topBlock{
+	height: 400px;
+}
+
+.bottomBlock{
+	height: 200px;
+}
+

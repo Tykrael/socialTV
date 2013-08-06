@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'heldD';
+    src: url('./ftvheldustry-demi-webfont.eot');
+    src: url('./ftvheldustry-demi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./ftvheldustry-demi-webfont.woff') format('woff'),
+         url('./ftvheldustry-demi-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

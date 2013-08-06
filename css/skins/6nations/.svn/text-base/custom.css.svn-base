@@ -1,0 +1,126 @@
+/*======================================================================================================================================================================================================*/
+/*======================================================================================================================================================================================================*/
+/* WIDGET */
+/*======================================================================================================================================================================================================*/
+/*======================================================================================================================================================================================================*/
+/*--------------------------------------------------------------------------------------------*\
+Colors
+\*--------------------------------------------------------------------------------------------*/
+#widgetReseauxSociaux .white,#popinReseauxSociaux .white{color:white;}
+#widgetReseauxSociaux .tor a,#popinReseauxSociaux .tor a{color:#927321;}
+#widgetReseauxSociaux .tgris,#popinReseauxSociaux .tgris{color:#666;}
+#twit-color,.twit-color,
+#widgetReseauxSociaux a.twit-color,
+#widgetReseauxSociaux a#twit-color,
+#popinReseauxSociaux #popin a.twit-color,
+#popinReseauxSociaux .post a,
+#popinReseauxSociaux .footer a,
+#widgetReseauxSociaux a.hashtagLink{color:#1d9bd5;}
+#widgetReseauxSociaux .post .author .name a,#popinReseauxSociaux .post .author .name a,
+#widgetReseauxSociaux .tor,#popinReseauxSociaux .tor{color: #211f22;}
+#widgetReseauxSociaux .post .author .twit,#popinReseauxSociaux .post .author .twit{color: #232520;}
+/*--------------------------------------------------------------------------------------------*\
+TOOLBAR
+\*--------------------------------------------------------------------------------------------*/
+
+#widgetReseauxSociaux .toolbar span{font-size:15px;}
+#widgetReseauxSociaux .toolbar span.dataCount{font-size:12px;}
+#widgetReseauxSociaux .tabs .tab.active{color:#333;background:#f3f3f3;}
+#widgetReseauxSociaux .tabs .tab a{color:#eee;font-size:16px;}
+#widgetReseauxSociaux .tabs .tab.active a{color:#333;}
+/*--------------------------------------------------------------------------------------------*\
+WIDGET CONTAINER
+\*--------------------------------------------------------------------------------------------*/
+#widgetReseauxSociaux .widgetContainer{font-family:'arial',helvetica, sans-serif;}
+#widgetReseauxSociaux .post .author, #popinReseauxSociaux .post .author{font-size:12px;}
+#widgetReseauxSociaux .post .author .name .fbName,#popinReseauxSociaux .post .author .name .fbName,
+#widgetReseauxSociaux .post .author .name a .twitterName,#popinReseauxSociaux .post .author .name a .twitterName{font-size:18px;font-family:'heldD',arial,helvetica,sans-serif;}
+#widgetReseauxSociaux .post .author .name a .twitterUserName,#popinReseauxSociaux .post .author .name a .twitterUserName{font-size:12px;font-family:'heldD',arial,helvetica,sans-serif;}
+#widgetReseauxSociaux .post .author .twit,#popinReseauxSociaux .post .author .twit{font-size:14px;}
+#widgetReseauxSociaux .post .footer a{color:#666666;/*background:transparent url("../images/puce.png") no-repeat scroll 0 center;*/}
+#widgetReseauxSociaux .post .time,#popinReseauxSociaux .post .time{color:#242424;font-size:12px;}
+#widgetReseauxSociaux .widgetSharer{font-size:13px;color:#FFF; background-color:transparent;}
+#widgetReseauxSociaux .widgetSharer .shareForm .textareaWrapper{background-color:white;border:2px solid #fff;}
+#widgetReseauxSociaux .widgetSharer .shareForm textarea{font-size:12px;}
+#widgetReseauxSociaux .widgetSharer .shareForm textarea::-webkit-input-placeholder,
+#widgetReseauxSociaux .widgetSharer .shareForm textarea:-moz-placeholder,
+#widgetReseauxSociaux .widgetSharer .shareForm textarea:-ms-input-placeholder{color:#979797;}
+#widgetReseauxSociaux .widgetSharer .shareForm .countdown{color:black;}
+#widgetReseauxSociaux .widgetSharer .shareForm .actions .actionButton{color:#323232;font-family:arial;background-color:white;font-size:20px;}
+#widgetReseauxSociaux .widgetSharer .shareForm .actions .actionButton.ok{color:#FFF;background:#aeaeae;}
+#popinReseauxSociaux .mask{background-color:#000;opacity:0.3;filter:alpha(opacity=50);}
+#popinReseauxSociaux #popin-wrapper{background-color:#FFF;}
+#popinReseauxSociaux .footer a{font-size:12px;}
+#popinReseauxSociaux .post{color:#717171;font-size:13px;}
+#popinReseauxSociaux .post .author .twit{color:black;font-size:14px;}
+#popinReseauxSociaux .post .author .details{font-size:10px;color:#AAAAAA;}
+#popinReseauxSociaux .close{font-size:15px;color:#555;}
+
+/*======================================================================================================================================================================================================*/
+/*======================================================================================================================================================================================================*/
+/* TEMPLATE V2 */
+/*======================================================================================================================================================================================================*/
+/*======================================================================================================================================================================================================*/
+body{color:#000;font-family:Arial;background-color:#363636;}
+#mainContent{background-color:white;}
+
+/*TOPBAR*/
+.siteHeader .program-title{font-family: "heldD"; font-size: 19px; color:#fff;}
+.siteHeader .logo{background:url('./img/logo.png') no-repeat; width:175px; height:28px;}
+.colorFiller{background-color:#eb008a;}
+
+/* WIDGET */
+#socialModuleContainer{background-color:#f3f3f3;}
+#widgetReseauxSociaux .toolbar span{color:#242424;font-size:21px;}
+#widgetReseauxSociaux .tabs{background-color:#f3f3f3}
+#widgetReseauxSociaux .widgetSharer .title{font-size:13px;color:#242424;}
+/* FOOTER */
+/*#siteFooter .show-logo{background:transparent url('img/show.logo.jpg') no-repeat left top;}
+#siteFooter .show-title{background:#78f0d7 url('img/show.title.jpg') no-repeat left top;}
+#siteFooter .like-fb{background-color:#1d9bd5;}
+#siteFooter .like-tw{background-color:#1d9bd5;}*/
+.footerZone .logoZone{background:#242424 url('./img/logo-emission1.png') no-repeat center center;}
+
+/* VIDEO SNAP */
+.snapZone,.footerZone{color: #fff;}
+.liveZone, .logoZone{ background-color: #242424;border-right: #fff 5px solid;}
+.backZone .snapArrow, .liveZone .snapArrow, .logoZone .snapArrow{background: url('img/snap.arrow.png') no-repeat center left;}
+.liveZone .snapButton{background: url('img/snap.button.png') no-repeat center center;}
+.liveZone .snapText{font-size: 20px; font-family: 'heldD', arial;}
+.snapButton:active, .snapButton.active{background: url('img/snap.button.active.png') no-repeat center center;}
+.snapButton .loader{background: url('img/snap.spinner.png') no-repeat top;}
+.infoZone{border-left: white 5px solid;background:#AEAEAE url('./img/bandeau.jpg') no-repeat center center;}
+.snapZone .backZone{background:#242424 url('./img/logo-emission1.png') no-repeat center center;}
+.backZone .backButton{background: url('img/snap.back.png') no-repeat top left; font-size: 21px;font-family: 'heldD';}
+.playerZone{background-color: #aeaeae;}
+.snapVideo{background:transparent url('img/snap.background.snapVideo.png') no-repeat center center;}
+.snapVideoError, .playVideoError{color: #fff;}
+.shareZone{background-color: #aeaeae;}
+.shareZone .shareInfo{ font-size: 16px; font-family: 'heldD';}
+
+/* SLIDE SONDAGE */
+.slide-son .item-content{background:transparent url('img/sondage.background.png') no-repeat center center;}
+.slide-son .item-content .title{color:#fefefe;font-size:20px;font-family:'heldD',arial,helvetica,sans-serif;}
+.slide-son .reponse{color:white;font-size:15px;font-family:'heldD',arial,helvetica,sans-serif;}
+.slide-son .item-timer span{font-size:12px;font-family:'heldD',arial,helvetica,sans-serif;color:white;}
+.slide-son .item-message{color:#fff;font-size:12px;font-family:'heldD',arial,helvetica,sans-serif;}
+.slide-son .resultat{color:white;font-size:15px;font-family:'heldD',arial,helvetica,sans-serif;}
+.slide-son .resultat .pourcentage{border:2px solid #5c5c5c;background-color:#aeaeae;font-size:16px;font-family:'heldD',arial,helvetica,sans-serif;}
+.slide-son .resultat .pourcentage span{font-size:30px;font-family:'heldD',arial,helvetica,sans-serif;}
+.slide-son .resultat .pourcentage.most{background-color:#37b73d;}
+.slide-son .resultat .pourcentage.least{background-color:#b73737;}
+
+/* Slide Edito */
+.slide-ed .item-content .title {font-family:'heldD',arial,helvetica,sans-serif; font-size:20px; color : #fefefe;}
+.slide-ed .item-content .subtitle {font-family:'heldD',arial,helvetica,sans-serif; font-size:16px; color : #fefefe;}
+.slide-ed .item-content .content { font-family: Arial; font-size:15px; color : white;}
+.slide-ed .copyright, .slide .publiDate {color:white; font-family:Arial; font-size:14px;}
+
+/* Slide Social */
+.slide-soc .item-text{ font-family: Arial; color : #c6c6c6;}
+.slide-soc .item-text .title {font-family:'heldD',arial,helvetica,sans-serif; font-size:30px; color : white;}
+.slide-soc .item-text .nickname { font-size:20px; }
+.slide-soc .item-text .time { font-size:20px; }
+.slide-soc .item-text .content {font-family: Arial; font-size:24px;}
+
+#slider-main .content a,#widgetReseauxSociaux .twit a {color: #eb008a; text-decoration: none;}

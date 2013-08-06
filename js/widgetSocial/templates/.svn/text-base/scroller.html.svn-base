@@ -1,0 +1,17 @@
+<header>
+	<div class="toolbar clearfix"><span><%= titre %></span></div>
+	<div class="tabs cf"></div>
+</header>
+<section class="widgetWrapper">
+	<div id="widgetContainer" class="scroller widgetContainer">
+		<div class="itemList"></div>
+		<div class="nav-column down">
+			<a href="#" class="v-arrow environnement" title="Plus de tweets"><span>Plus de tweets</span></a>
+		</div>
+		<div class="nav-column up">
+			<a href="#" class="v-arrow environnement" title="Plus de tweets"><span>Plus de tweets</span></a>
+		</div>
+	</div>
+</section>
+<section class="share">
+</section>

@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'heldDI';
+    src: url('./heldustryftdemiitalic-webfont.eot');
+    src: url('./heldustryftdemiitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./heldustryftdemiitalic-webfont.woff') format('woff'),
+         url('./heldustryftdemiitalic-webfont.ttf') format('truetype'),
+         url('./heldustryftdemiitalic-webfont.svg#heldustryft_demi_italicRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

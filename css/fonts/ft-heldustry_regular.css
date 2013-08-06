@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'heldR';
+    src: url('./heldustryftregular-webfont.eot');
+    src: url('./heldustryftregular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./heldustryftregular-webfont.woff') format('woff'),
+         url('./heldustryftregular-webfont.ttf') format('truetype'),
+         url('./heldustryftregular-webfont.svg#heldustryft_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
